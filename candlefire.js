@@ -9,13 +9,13 @@ var app = express();
 
 app.get('/', cfm.root.get);
 
-app.get('/rooms', cfm.rooms.get);
-app.get('/rooms/:roomId', cfm.rooms.get);
+app.get('/rooms', cfm.rooms.getMany);
+app.get('/rooms/:roomId', cfm.rooms.getOne);
 
-app.get('/slots', cfm.slots.get);
-app.get('/slots/:slotId', cfm.slots.get);
+app.get('/slots', cfm.slots.getMany);
+app.get('/slots/:slotId', cfm.slots.getOne);
 
-app.get('/talks', cfm.talks.get);
-app.get('/talks/:talkId', cfm.talks.get);
+app.get('/talks', cfm.talks.getMany);
+app.get('/talks/:talkId', cfm.talks.getOne);
 
 app.listen(3000);
