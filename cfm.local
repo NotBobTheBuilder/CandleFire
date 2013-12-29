@@ -1,9 +1,0 @@
-server {
-	server_name cfm.local;
-    root /usr/share/nginx/www/cfm;
-    location /rest {
-        rewrite /rest/(.*) /$1 break;
-        rewrite /rest / break;
-        proxy_pass http://localhost:3000;
-    }
-}

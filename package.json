@@ -1,17 +1,18 @@
 {
-    "name" : "candlefire",
-    "preferGlobal": "false",
-    "version" : "0.0.1",
-    "description" : "An imitator for CampFireManager3",
-    "contributors": [
-        {
-            "name" : "Jack Wearden",
-            "email" : "jack@jackwearden.co.uk"
-        }
-    ],
-    "dependencies" : {
-        "express" : "3.2.5",
-        "mongodb" : "1.3.7",
-        "monk" : "0.7.1"
+  "name": "candlefire",
+  "preferGlobal": "false",
+  "version": "0.0.1",
+  "description": "An imitator for CampFireManager3",
+  "contributors": [
+    {
+      "name": "Jack Wearden",
+      "email": "jack@jackwearden.co.uk"
     }
+  ],
+  "dependencies": {
+    "bookshelf": "~0.6.2",
+    "sqlite3": "~2.1.19",
+    "express": "~3.4.7",
+    "async": "~0.2.9"
+  }
 }
