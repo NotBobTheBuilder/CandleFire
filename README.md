@@ -1,7 +1,7 @@
 CandleFire
 ==========
 
-an imitator of the CampFireManager API, built on Node.js, Express.js and Mongodb.
+Hacking around with [Bookshelf.js](http://bookshelfjs.org) to see if it's a good platform for CampFireManager.
 
 
 Config
