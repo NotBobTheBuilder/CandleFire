@@ -1,6 +1,8 @@
 CandleFire
 ==========
 
+**Note: The current testing is in the bookshelf.js branch**
+
 an imitator of the CampFireManager API, built on Node.js, Express.js and Mongodb.
 
 
