@@ -6,3 +6,5 @@ var express   = require('express'),
 app.use(express.bodyParser());
 models = models(app);
 app.listen(3000);
+
+module.exports = app;

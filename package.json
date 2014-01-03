@@ -14,5 +14,8 @@
     "sqlite3": "~2.1.19",
     "express": "~3.4.7",
     "async": "~0.2.9"
+  },
+  "devDependencies": {
+    "supertest": "~0.8.2"
   }
 }
