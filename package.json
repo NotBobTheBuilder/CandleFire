@@ -3,6 +3,9 @@
   "preferGlobal": "false",
   "version": "0.0.1",
   "description": "An imitator for CampFireManager3",
+  "scripts": {
+    "test": "node test.js"
+  },
   "contributors": [
     {
       "name": "Jack Wearden",
