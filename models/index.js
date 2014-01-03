@@ -36,8 +36,12 @@ module.exports = function(app) {
 
   app.post("/users", function(req, res) {
     User.forge(req.body).save().then(function(user) {
-      res.location('/users/' + user.id);
-      res.json(201, user.toJSON());
+      user.fetch({
+        "withRelated": ["talks"]
+      }).then(function(user) {
+        res.location('/users/' + user.id);
+        res.json(201, user.toJSON());
+      });
     });
   });
 
